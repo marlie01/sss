@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOME PAGE</title>
 
+
+
+   
+
+
+
   <style>
+
     * {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      box-sizing:border-box;
       font-family: Arial, sans-serif;
     }
 
-    body {
-      background: #0b1220;
-      color: white;
-    }
+    
 
     header {
       padding: 80px 20px;
@@ -35,7 +39,7 @@
 
     nav {
       display: flex;
-      justify-content: center;
+      justify-content:left;
       gap: 20px;
       background: #111827;
       padding: 15px;
@@ -45,7 +49,7 @@
 
     nav a {
       color: white;
-      text-decoration: none;
+      text-decoration:none;
       padding: 8px 12px;
       border-radius: 6px;
     }
@@ -61,7 +65,7 @@
     }
 
     .card {
-      background: #1f2937;
+      background-color:whitesmoke;
       padding: 20px;
       border-radius: 12px;
       margin-top: 15px;
@@ -85,28 +89,66 @@
     }
 
     footer {
-      text-align: center;
+      text-align:center;
       padding: 20px;
       background: #020617;
       font-size: 0.9rem;
     }
+    
+
+    .center {
+  display: block;
+  margin: 0 auto;
+}
+
+
+  
+
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%; /* Makes the image a circle */
+    object-fit: cover;  /* Prevents the image from stretching */
+}
+
+
+
+
+    
+
+
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Hi, I'm <span>Mar Lei Lopez</span></h1>
-    <p>Web Developer • Designer • Creator</p>
-  </header>
-
-  <nav>
+<nav>
     <a href="#about">About</a>
     <a href="gaming.html">Gaming</a>
     <a href="explore.html">Explore</a>
     <a href="#contact"></a>
   </nav>
 
+  <header>
+    <h1>Hi, I'm Mar Lei Lopez</h1>
+    <p>Web Developer • Designer • Creator</p>
+  </header>
+    
+
+    <style>
+      
+      
+
+
+
+
+    </style>
+    <div class="image-container">
+   <img src="img/u.jpg"  alt="Sample" class="center" />
+ </div>
+
+ 
   <section id="about">
     <h2>About Me</h2>
     <div class="card">
